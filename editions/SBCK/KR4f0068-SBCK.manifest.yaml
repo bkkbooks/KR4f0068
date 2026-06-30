@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR4f0068/SBCK/v1
+canonical_location: https://kanripo.org/bkk/KR4f0068/SBCK/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 曾文正公詩集
+  date: '2015-09-11 18:03:09.889696'
+  source:
+    repository: kanripo
+    path: KR4f0068
+  edition:
+    short: SBCK
+    label: 【四部叢刊】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4f0068_000-SBCK.yaml, hash: 'sha256:b00ce43668965435afb91bed4cd2417bbfce692ca60d32617521164c263ced83'}
+  - {seq: 1, filename: KR4f0068_001-SBCK.yaml, hash: 'sha256:b400cd3cef59db2e9f4030978c39102a1032f07b9df039cf4fcdb7be36b9de90'}
+  - {seq: 2, filename: KR4f0068_002-SBCK.yaml, hash: 'sha256:d5fa0678198ef77db5b8650a3def02820778e4b570f9ee85b87df6cafd1fbbde'}
+  - {seq: 3, filename: KR4f0068_003-SBCK.yaml, hash: 'sha256:e5dfd5958453a0c62e038a9b4de6b4f40e16322f07b792a6f7570972aa014826'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4f0068_000-SBCK.markers.yaml, hash: 'sha256:6a19c838ba56b1b2657c54e0d02e307ed97ff05e613806a07e576fc50114b338'}
+  - {seq: 1, role: markers, filename: assets/KR4f0068_001-SBCK.markers.yaml, hash: 'sha256:9282253651843709eb6c23c9f0b577464a6528023e05cf682d7a89e1232c4bf0'}
+  - {seq: 2, role: markers, filename: assets/KR4f0068_002-SBCK.markers.yaml, hash: 'sha256:d7cf78b4dfc0b71ab7fc27b7e894d4b0668df53ec3529d0daa02a041c3ea6fdd'}
+  - {seq: 3, role: markers, filename: assets/KR4f0068_003-SBCK.markers.yaml, hash: 'sha256:772c4f22e909394d18499709d7e69a2b3daf9236e05926fc51c04a69b15b9e32'}
+table_of_contents:
+- ref: {seq: 0, marker_id: KR4f0068_SBCK_000-1a, span: [body, 0, 2460]}
+  label: juan 000
+  type: section
+  level: 1
+- ref: {seq: 1, marker_id: KR4f0068_SBCK_001-1a, span: [body, 0, 48628]}
+  label: juan 001
+  type: section
+  level: 1
+- ref: {seq: 2, marker_id: KR4f0068_SBCK_002-1a, span: [body, 0, 46609]}
+  label: juan 002
+  type: section
+  level: 1
+- ref: {seq: 3, marker_id: KR4f0068_SBCK_003-1a, span: [body, 0, 42352]}
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:3d4a6a3dff315917b32460f801ea751ddb879b344b2a2156e574adb230f87c93
