@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4f0068/v1
 canonical_location: https://kanripo.org/bkk/KR4f0068/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  hash: sha256:80d2d927b8deb12efb4a2db45a88623d21d8eb0caa5df4e1fce34edd8ec300b3
 metadata:
   title: 曾文正公詩集
   date: '2015-09-11 18:03:09.889696'
@@ -16,33 +16,61 @@ entity_encoding:
   identifier: bkk:encoding/kanripo-pua-v1
   hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
 editions:
-- {short: SBCK, label: 【四部叢刊】}
+- short: SBCK
+  label: 【四部叢刊】
 assets:
   parts:
-  - {seq: 0, filename: KR4f0068_000.yaml, hash: 'sha256:d8dec6084692a3019c3cfa9ad9680603ce186a4dbed8f14733c1b26ed5e6fd87'}
-  - {seq: 1, filename: KR4f0068_001.yaml, hash: 'sha256:40a8ea3139899d93f844eaa76f4df97303be399e954014dfac7ed95b0f21418a'}
-  - {seq: 2, filename: KR4f0068_002.yaml, hash: 'sha256:f62ebd5e522f1fb43f923a9f2654772d01c07524b85847ac6cadc5aaab7721a1'}
-  - {seq: 3, filename: KR4f0068_003.yaml, hash: 'sha256:55540281a90cc67ec84fd3285aa81e05658d35bcb8c8de9d25e69065a3750bdd'}
+  - {seq: 0, filename: KR4f0068_000.yaml, hash: 'sha256:5d5459060437d8395df450ee0da3a10d279dc4350f375c9bc21a3e4a97c7078b'}
+  - {seq: 1, filename: KR4f0068_001.yaml, hash: 'sha256:b6eb09290ecaa9e437120e7acf1f13e2494301a6f076ce8394d297af874e707e'}
+  - {seq: 2, filename: KR4f0068_002.yaml, hash: 'sha256:51f27f12681ca72664d5e6febe86613c194c48816d8a05e99121de9b74c13ae0'}
+  - {seq: 3, filename: KR4f0068_003.yaml, hash: 'sha256:fcc36d032e2ff65bc3c2be2d7f921a25dbc73ecd989e5c189bb2fb395920ad24'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR4f0068_000.markers.yaml, hash: 'sha256:b3686ccec862a4d4bbfaa12bcedfe96a80cabc590c494034d9e1c6505bfd1f6e'}
-  - {seq: 1, role: markers, filename: assets/KR4f0068_001.markers.yaml, hash: 'sha256:f4f9af4f04c43db97ce1a2f8dfbc29360b74c0c9806b9035be74add2f8b36df0'}
-  - {seq: 2, role: markers, filename: assets/KR4f0068_002.markers.yaml, hash: 'sha256:1acf58a636fd3eb488b457ba1003f17108802db904be82aeb33e9e4220a81886'}
-  - {seq: 3, role: markers, filename: assets/KR4f0068_003.markers.yaml, hash: 'sha256:4b4527101b60be3ca5921565d410bb3daf8c8ffb9dea3d3e1c7e1a8e64bbee5b'}
+  - {seq: 0, role: markers, filename: assets/KR4f0068_000.markers.yaml, hash: 'sha256:2ceaf789f1dc7ad0dfe52b33f77b1a23f15995716a4530b9a1f0a1788f147d6e'}
+  - {seq: 1, role: markers, filename: assets/KR4f0068_001.markers.yaml, hash: 'sha256:38cbd0e02c2300c28ddaeb84010b8ab3a0541ab82e64b555a52c57edf1812e4b'}
+  - {seq: 2, role: markers, filename: assets/KR4f0068_002.markers.yaml, hash: 'sha256:ca0b409d7c623dc78d03459795a0f5dc613bb2178b5681f2d3f275a237fcd97f'}
+  - {seq: 3, role: markers, filename: assets/KR4f0068_003.markers.yaml, hash: 'sha256:f4d79733135dfabdb4b6d5e0ebe308bf01971cd187e2f6e7ed7b3f7b29356122'}
 table_of_contents:
-- ref: {seq: 0, marker_id: KR4f0068_SBCK_000-1a, span: [body, 0, 2460]}
+- ref:
+    seq: 0
+    marker_id: KR4f0068_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 2460
   label: juan 000
   type: section
   level: 1
-- ref: {seq: 1, marker_id: KR4f0068_SBCK_001-1a, span: [body, 0, 48629]}
+- ref:
+    seq: 1
+    marker_id: KR4f0068_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 48629
   label: juan 001
   type: section
   level: 1
-- ref: {seq: 2, marker_id: KR4f0068_SBCK_002-1a, span: [body, 0, 46609]}
+- ref:
+    seq: 2
+    marker_id: KR4f0068_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 46609
   label: juan 002
   type: section
   level: 1
-- ref: {seq: 3, marker_id: KR4f0068_SBCK_003-1a, span: [body, 0, 42352]}
+- ref:
+    seq: 3
+    marker_id: KR4f0068_SBCK_003-1a
+    span:
+    - body
+    - 0
+    - 42352
   label: juan 003
   type: section
   level: 1
-hash: sha256:a748753bb1a17a6cfe438b20a30832c90bb93f26c9483403f25c1990a0e66530
+hash: sha256:05c31e4324fbbbce5a9e35986d4e370feb7b26ac87f99945d22e98619fe01174
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
