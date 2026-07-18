@@ -43,6 +43,7 @@ markers:
   - {type: line-break, offset: 23, content: '', id: KR4f0068_SBCK_000-1a08}
   - {type: indent, offset: 23, content: 　　, id: KR4f0068_SBCK_000-bkkind7}
   - {type: punctuation, offset: 25, content: (, id: KR4f0068_SBCK_000-bkkpn1}
+  - {type: voice, offset: 25, length: 2, name: note, id: n1}
   - {type: punctuation, offset: 27, content: ), id: KR4f0068_SBCK_000-bkkpn2}
   - {type: 'kr:newline', offset: 27, content: '
 
@@ -164,6 +165,7 @@ markers:
   - {type: line-break, offset: 142, content: '', id: KR4f0068_SBCK_000-2a10}
   - {type: indent, offset: 142, content: 　　　, id: KR4f0068_SBCK_000-bkkind30}
   - {type: punctuation, offset: 148, content: (, id: KR4f0068_SBCK_000-bkkpn3}
+  - {type: voice, offset: 148, length: 4, name: note, id: n2}
   - {type: punctuation, offset: 152, content: ), id: KR4f0068_SBCK_000-bkkpn4}
   - {type: 'kr:newline', offset: 152, content: '
 
@@ -510,6 +512,7 @@ markers:
   - {type: indent, offset: 665, content: 　　, id: KR4f0068_SBCK_000-bkkind93}
   - {type: indent, offset: 672, content: 　, id: KR4f0068_SBCK_000-bkkind94}
   - {type: punctuation, offset: 674, content: (, id: KR4f0068_SBCK_000-bkkpn5}
+  - {type: voice, offset: 674, length: 7, name: note, id: n3}
   - {type: punctuation, offset: 681, content: ), id: KR4f0068_SBCK_000-bkkpn6}
   - {type: 'kr:newline', offset: 681, content: '
 
@@ -1228,6 +1231,7 @@ markers:
       ', id: KR4f0068_SBCK_000-bkkkrnewl250}
   - {type: line-break, offset: 1653, content: '', id: KR4f0068_SBCK_000-5a01}
   - {type: punctuation, offset: 1653, content: (, id: KR4f0068_SBCK_000-bkkpn7}
+  - {type: voice, offset: 1653, length: 1, name: note, id: n4}
   - {type: punctuation, offset: 1654, content: ), id: KR4f0068_SBCK_000-bkkpn8}
   - {type: 'kr:newline', offset: 1659, content: '
 
@@ -1787,4 +1791,4 @@ markers:
 
       ', id: KR4f0068_SBCK_000-bkkkrnewl364}
   back: []
-hash: sha256:6a19c838ba56b1b2657c54e0d02e307ed97ff05e613806a07e576fc50114b338
+hash: sha256:51b91ae6949595820dcd354524db13c2e2e33df6fd2cf6d8a5a1c6084309c50e
